@@ -55,6 +55,17 @@
         url('../fonts/font_buycar/iconfont.svg#iconfont') format('svg');
 }
 
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/font_icon_right/iconfont.eot');
+    src: url('../fonts/font_icon_right/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font_icon_right/iconfont.woff2') format('woff2'),
+        url('../fonts/font_icon_right/iconfont.woff') format('woff'),
+        url('../fonts/font_icon_right/iconfont.ttf') format('truetype'),
+        url('../fonts/font_icon_right/iconfont.svg#iconfont') format('svg');
+}
+  
+
 .iconfont {
     font-family: "iconfont" !important;
     font-size: 16px;
@@ -67,7 +78,6 @@
 .header{
     height: 105px;
     position: relative;
-    background-color: floralwhite;
 }
 
 .logo{
@@ -121,6 +131,7 @@
     right: 64px;
     top: 26px;
     /* padding-left: 18px; */
+    background-color: #f7f7f7;
     text-align: center;
 }
 
@@ -163,7 +174,7 @@
 }
 
 .nav{
-    height: 68px;
+    height: 47px;
     border-bottom: 2px solid #b1191a;
 }
 
@@ -174,9 +185,9 @@
 }
 
 .nav-left dt{
-    height: 68px;
+    height: 49px;
     background: #b1191a;
-    line-height: 68px;
+    line-height: 49px;
     font-size: 16px;
     text-align: center;
 }
@@ -187,7 +198,14 @@
     font-size: 14px;
 }
 .nav-left dd span{
-    padding-left: 11px;
+    padding-left: 12px;
+}
+
+.nav-left-icon{
+    font-family: "iconfont" !important;
+    color:white;
+    font-size: 14px;
+    padding-right: 11px;
 }
 
 
